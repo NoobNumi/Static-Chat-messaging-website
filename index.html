@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Chat Conversation || By Noob Numi</title>
+</head>
+
+<body>
+    <div class="msg-chat">
+        <div class="container">
+
+            <!-- LEFT PAGE -->
+
+            <div class="left-page">
+                <div class="top">
+                    <div class="app-name">
+                        <h1>Chat</h1>
+                    </div>
+                    <div class="side-icons">
+                        <i class="fa-solid fa-circle-plus"></i>
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                </div>
+                <div class="search-bar-container">
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search here..">
+                    </div>
+                </div>
+                <div class="category">
+                    <i class="fa-solid fa-message active"></i>
+                    <i class="fa-solid fa-address-book"></i>
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                </div>
+                <div class="messages">
+                    <div class="first-msg active">
+                        <img src="./imgs/profile.png" width="30px">
+                        <div class="name-message">
+                            <p class="name">Ganyu</p>
+                            <p class="message">Lorem ipsum dolor sit amet</p>
+                        </div>
+                        <div class="time">
+                            <p class="time-sent">Just Now</p>
+                        </div>
+                    </div>
+                    <div class="first-msg">
+                        <img src="./imgs/profile1.jpg" width="30px">
+                        <div class="name-message">
+                            <p class="name">Eula Lawrence</p>
+                            <p class="message">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia voluptates
+                                inventore accusantium in assumenda consectetur autem at voluptate nam, odio placeat qui
+                                dolorem iste esse beatae dignissimos error quas eaque.</p>
+                        </div>
+                        <div class="time">
+                            <p class="time-sent">10h</p>
+                        </div>
+                    </div>
+                    <div class="first-msg">
+                        <img src="./imgs/profile2.jpg" width="30px">
+                        <div class="name-message">
+                            <p class="name">Lisa Minci</p>
+                            <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum alias
+                                fugit quasi quas expedita neque, sed molestiae similique impedit, minus iusto excepturi
+                                fugiat quo blanditiis vitae earum qui quod veniam?</p>
+                        </div>
+                        <div class="time">
+                            <p class="time-sent">Friday</p>
+                        </div>
+                    </div>
+                    <div class="first-msg">
+                        <img src="./imgs/profile3.jpg" width="30px">
+                        <div class="name-message">
+                            <p class="name">Keqing</p>
+                            <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum alias
+                                fugit quasi quas expedita neque, sed molestiae similique impedit, minus iusto excepturi
+                                fugiat quo blanditiis vitae earum qui quod veniam?</p>
+                        </div>
+                        <div class="time">
+                            <p class="time-sent">Yesterday</p>
+                        </div>
+                    </div>
+                    <div class="first-msg">
+                        <img src="./imgs/profile4.png" width="30px">
+                        <div class="name-message">
+                            <p class="name">Di ko kilala</p>
+                            <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum alias
+                                fugit quasi quas expedita neque, sed molestiae similique impedit, minus iusto excepturi
+                                fugiat quo blanditiis vitae earum qui quod veniam?</p>
+                        </div>
+                        <div class="time">
+                            <p class="time-sent">Thursday</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END -->
+
+
+            <!-- CENTER PAGE -->
+
+            <div class="center-page">
+                <div class="top">
+                    <div class="profile-details">
+                        <img src="./imgs/profile.png" width="50px">
+                        <div class="profile-name-status">
+                            <h3>Ganyu</h3>
+                            <p><span> </span>Active now</p>
+                        </div>
+
+                    </div>
+                    <div class="side-actions">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-solid fa-video"></i>
+                    </div>
+
+                </div>
+                <hr>
+                <div class="sent-messages" id="chat-box">
+                    <div class="receiver">
+                        <div class="msg-box-sender">
+                            <div class="message-container">
+                                <div class="profile-pic">
+                                    <img src="./imgs/profile.png" width="30px">
+                                </div>
+
+                                <p class="receiver-msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                                    officiis at reiciendis vel rerum autem voluptas maiores quod repellendus eos hic,
+                                    ullam
+                                    facere, molestias nemo nostrum, a ipsam! Aspernatur, id.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-box">
+                    <i class="fa-regular fa-face-smile"></i>
+                    <input type="text" placeholder="Aa" class="typing-box" id="typing-box">
+                    <i class="fa-solid fa-paperclip"></i>
+                    <button class="send-button" onclick="sendMessage()" style="border: none;">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- END -->
+
+            <!-- RIGHT PAGE -->
+
+
+            <div class="right-page">
+                <div class="top-details">
+                    <img src="./imgs/profile.png" width="100" alt="" srcset="">
+                    <h4>Ganyu</h4>
+                    <p class="username">@cocogoat</p>
+                    <div class="profile-icons-actions">
+                        <div class="icon-name">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>Audio</p>
+                        </div>
+                        <div class="icon-name">
+                            <i class="fa-solid fa-video"></i>
+                            <p>Video</p>
+                        </div>
+                        <div class="icon-name">
+                            <i class="fa-solid fa-image"></i>
+                            <p>Media</p>
+                        </div>
+                        <div class="icon-name">
+                            <i class="fa-solid fa-bell"></i>
+                            <p>Mute</p>
+                        </div>
+                    </div>
+                    <div class="customization">
+                        <h5>Customization</h5>
+
+                        <div class="customize-icons">
+                            <p>Theme</p>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                        </div>
+                        <div class="customize-icons">
+                            <p>Quick Emoji</p>
+                            <span>😚</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
